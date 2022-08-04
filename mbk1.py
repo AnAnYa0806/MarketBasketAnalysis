@@ -5,8 +5,8 @@ from mlxtend.frequent_patterns import apriori
 from mlxtend.frequent_patterns import association_rules
 
 #Reading Data From Web
-myretaildata = pd.read_excel('http://archive.ics.uci.edu/ml/machine-learning-databases/00352/Online%20Retail.xlsx')
-myretaildata.head()
+#myretaildata = pd.read_excel('http://archive.ics.uci.edu/ml/machine-learning-databases/00352/Online%20Retail.xlsx')
+#myretaildata.head()
 
 def process_excel(myretaildata):
     #Data Cleaning
